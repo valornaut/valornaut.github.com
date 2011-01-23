@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title> Valornaut - {{ page.title }}</title>
+    <title> Valornaut - Valiant Mac and iOS development</title>
 <!-- Framework CSS -->
 <link rel="stylesheet" href="/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection">
 <link rel="stylesheet" href="/stylesheets/blueprint/print.css" type="text/css" media="print">
@@ -34,16 +34,19 @@
     <div id='navigation'>
       <ul id="nav-links">
         <li><a href='/'>Home</a></li>
-        <li><a href="http://facetripper.com">FaceTripper</li>
+        <li><a href="http://blog.valornaut.com">Blog</a></li>
+        <li><a href="http://facetripper.com">FaceTripper</a></li>
       </ul>
     </div>
-    <div id="main-logo">
-        <img src="images/logo.png" alt="valornaut logo image"/>
+    <div class="container">
+        <div id="main-logo">
+            <a href="/"><img src="images/logo.png" alt="valornaut logo image"/></a>
+        </div>
+        <div id='content'>
+              {{ content }}
+              <div class='clearfix'></div>
+        </div>        
     </div>
-    <!-- <div id='content'>
-        {{ content }}
-        <div class='clearfix'></div>
-      </div> -->
   <div id='footer'>
   </div>
   </div>
